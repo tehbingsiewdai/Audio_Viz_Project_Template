@@ -1,0 +1,2151 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Apr  6 22:35:17 2019
+# Process ID: 18844
+# Current directory: C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1
+# Command line: vivado.exe -log Voice_Scope_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Voice_Scope_TOP.tcl
+# Log file: C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/Voice_Scope_TOP.vds
+# Journal file: C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Voice_Scope_TOP.tcl -notrace
+Command: synth_design -top Voice_Scope_TOP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20012 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 358.188 ; gain = 99.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Voice_Scope_TOP' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Voice_Scope_TOP.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (1#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_div_var' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_div_var.v:23]
+INFO: [Synth 8-6157] synthesizing module 'spd_sel' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/spd_sel.v:23]
+INFO: [Synth 8-6157] synthesizing module 'single_pulse' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/my_singlepulse.v:23]
+INFO: [Synth 8-6157] synthesizing module 'my_dff' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/my_dff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'my_dff' (2#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/my_dff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'single_pulse' (3#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/my_singlepulse.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'spd_sel' (4#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/spd_sel.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div_var' (5#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/clk_div_var.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Voice_Capturer' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VOICE_CAPTURER.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'Voice_Capturer' (6#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VOICE_CAPTURER.v:20]
+INFO: [Synth 8-6157] synthesizing module 'Volume_Indicator' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/Volume_Indicator.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/Volume_Indicator.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'Volume_Indicator' (7#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/Volume_Indicator.v:23]
+INFO: [Synth 8-6157] synthesizing module 'TestWave_Gen' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/TestWave_Gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'TestWave_Gen' (8#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/TestWave_Gen.v:23]
+INFO: [Synth 8-638] synthesizing module 'CLK_108M' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:83]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.125000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 9.375000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT4_CASCADE bound to: 0 - type: bool 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.000000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: 0 - type: bool 
+INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:125]
+INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:187]
+INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'CLK_108M' (9#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd:83]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Text' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:23]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Done By Jody and Lucas - type: string 
+INFO: [Synth 8-638] synthesizing module 'Font_Rom' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Font_Rom' (10#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:45]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:46]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized0' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Flip SW1 for MENU/HELP - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized0' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized0' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:54]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized0' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:55]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized1' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: MENU - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized1' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized1' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:65]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized1' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:66]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized2' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW2: Axis ON/OFF - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized2' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized2' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:73]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized2' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:74]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized3' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW3: Axis Movement - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized3' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized3' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:81]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized3' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:82]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized4' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW4: Colour Selection - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized4' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized4' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:90]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized4' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:91]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized5' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW5: Auto Backgrond Colour - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized5' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized5' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:98]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized5' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:99]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized6' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW6: Scrolling Background Colour - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized6' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized6' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:106]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized6' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:107]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized7' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW12: Scrolling Waveform - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized7' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized7' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:115]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized7' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:116]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized8' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW13: Waveform Selection - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized8' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized8' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:126]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized8' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:127]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized9' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW14: Wave Width - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized9' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized9' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:135]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized9' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:136]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized10' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: SW15: Freeze Waveform - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized10' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized10' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:145]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized10' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:146]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized11' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: btnU/btnD/btnL/btnR to move the axis - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized11' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized11' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:154]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized11' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:155]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized12' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: btnL/btnR to cycle through colors - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized12' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized12' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:162]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized12' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:163]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized13' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: btnU and btnD to increase/decrease scroll speed - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized13' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized13' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:170]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized13' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:171]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized14' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: BtnL / BtnR to cycle through waveforms - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized14' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized14' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:178]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized14' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:179]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized15' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: BtnL / BtnR to Increse/Decrese Bar sizes - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized15' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized15' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:186]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized15' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:187]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized16' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Freeze waveforms - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized16' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized16' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:194]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized16' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:195]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized17' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Scroll Mode: Left To right - Toggle SW7 for Circle - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized17' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized17' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:202]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized17' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:203]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized18' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Scroll Mode: Circle - Toggle SW7 for Left To right - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized18' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized18' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:210]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized18' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:211]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized19' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Scroll Paused: Press btnC to Start - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized19' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized19' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:218]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized19' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:219]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized20' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: Scrolling: Press btnC to Pause - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized20' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized20' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:226]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized20' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:227]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized21' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: TOTALLY LEGIT SONG RECOGNISER: RECOGNISING... - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized21' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized21' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:234]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized21' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:235]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized22' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: TOTALLY LEGIT SONG RECOGNISER: DESPACITO - Luis Fonsi - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized22' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized22' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:243]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized22' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:244]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized23' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: TOTALLY LEGIT SONG RECOGNISER: Blue(Da Ba Dee) - Eiffel 65 - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized23' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized23' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:251]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized23' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:252]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized24' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: TOTALLY LEGIT SONG RECOGNISER:  All Star - Smash Mouth  - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized24' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized24' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:259]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized24' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:260]
+INFO: [Synth 8-638] synthesizing module 'Pixel_On_Text2__parameterized25' [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+	Parameter displayText bound to: TOTALLY LEGIT SONG RECOGNISER: Never Gonna Give You Up - Rick Astley  - type: string 
+WARNING: [Synth 8-6014] Unused sequential element inXRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:80]
+WARNING: [Synth 8-6014] Unused sequential element inYRange_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:81]
+WARNING: [Synth 8-5863] Implementing Library version of Mod/Rem due to signed path. This typically leads to poor QOR. Check RTL to see if unsigned path for the operator is possible  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Pixel_On_Text2__parameterized25' (11#1) [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:47]
+WARNING: [Synth 8-689] width (12) of port connection 'horzCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized25' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:267]
+WARNING: [Synth 8-689] width (12) of port connection 'vertCoord' does not match port width (32) of module 'Pixel_On_Text2__parameterized25' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:268]
+WARNING: [Synth 8-6014] Unused sequential element Displaytext_res_reg was removed.  [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:282]
+INFO: [Synth 8-4471] merging register 'VGA_G_Text_reg[3:0]' into 'VGA_R_Text_reg[3:0]' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:364]
+WARNING: [Synth 8-6014] Unused sequential element VGA_G_Text_reg was removed.  [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:364]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Text' (12#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/VGA_Text.v:23]
+INFO: [Synth 8-6157] synthesizing module 'colorgen' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/colorgen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'colorgen' (13#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/new/colorgen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Waveform' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Waveform' (14#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Draw_Background' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Background.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Draw_Background' (15#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Background.v:24]
+INFO: [Synth 8-6157] synthesizing module 'VGA_DISPLAY' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_DISPLAY.v:17]
+INFO: [Synth 8-638] synthesizing module 'VGA_CONTROL' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_CONTROL.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'VGA_CONTROL' (16#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_CONTROL.vhd:61]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_DISPLAY' (17#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_DISPLAY.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'Voice_Scope_TOP' (18#1) [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Voice_Scope_TOP.v:10]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[15]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[14]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Draw_Background has unconnected port sw[0]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Draw_Waveform has unconnected port sw[0]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[15]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[14]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[13]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[11]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[10]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[9]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[8]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[7]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[4]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[3]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[2]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[1]
+WARNING: [Synth 8-3331] design colorgen has unconnected port sw[0]
+WARNING: [Synth 8-3331] design VGA_Text has unconnected port sw[11]
+WARNING: [Synth 8-3331] design VGA_Text has unconnected port sw[10]
+WARNING: [Synth 8-3331] design VGA_Text has unconnected port sw[9]
+WARNING: [Synth 8-3331] design VGA_Text has unconnected port sw[0]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[15]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[14]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[13]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[11]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[10]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[9]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[8]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[7]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[4]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[3]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[2]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[1]
+WARNING: [Synth 8-3331] design spd_sel has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 446.781 ; gain = 188.543
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 446.781 ; gain = 188.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 446.781 ; gain = 188.543
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/constrs_1/imports/new/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/constrs_1/imports/new/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Voice_Scope_TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Voice_Scope_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 798.254 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 798.254 ; gain = 540.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 798.254 ; gain = 540.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 798.254 ; gain = 540.016
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "temp_vol" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "temp_vol" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "temp_an0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "temp_seg0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "temp_seg0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Pixel_On_Text2.vhd:60]
+INFO: [Synth 8-5544] ROM "r_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "r_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "g_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "g_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "g_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "b_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "b_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "b_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "b_up" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:288]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:297]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:288]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:298]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:297]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:297]
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_vertical0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_horizontal0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_horizontal0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Wave_horizontal0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wave_selection" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wave_selection" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "j" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "j" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Horizontal_Counter" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Horizontal_Counter" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Background_Rn" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Background_Gn" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Background_Bn" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'Background_Rn_reg' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Background.v:228]
+WARNING: [Synth 8-327] inferring latch for variable 'Background_Gn_reg' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Background.v:229]
+WARNING: [Synth 8-327] inferring latch for variable 'Background_Bn_reg' [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Background.v:230]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 798.254 ; gain = 540.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |VGA_Text__GB0        |           1|     20683|
+|2     |VGA_Text__GB1        |           1|      6734|
+|3     |VGA_Text__GB2        |           1|      8394|
+|4     |VGA_Text__GB3        |           1|     10088|
+|5     |Voice_Scope_TOP__GC0 |           1|     19764|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 54    
+	   2 Input     32 Bit       Adders := 83    
+	   3 Input     32 Bit       Adders := 27    
+	   2 Input     31 Bit       Adders := 27    
+	   2 Input     12 Bit       Adders := 3     
+	   2 Input     11 Bit       Adders := 16    
+	   2 Input      7 Bit       Adders := 27    
+	   3 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 13    
+	   2 Input      5 Bit       Adders := 55    
+	   3 Input      5 Bit       Adders := 12    
+	   2 Input      4 Bit       Adders := 8     
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 3     
++---Registers : 
+	               26 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 6     
+	                8 Bit    Registers := 28    
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 107   
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 64    
++---Multipliers : 
+	                32x32  Multipliers := 4     
++---RAMs : 
+	              12K Bit         RAMs := 3     
++---ROMs : 
+	                              ROMs := 27    
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 9     
+	   2 Input     31 Bit        Muxes := 27    
+	   2 Input     26 Bit        Muxes := 2     
+	  13 Input     16 Bit        Muxes := 1     
+	  18 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 15    
+	   4 Input     11 Bit        Muxes := 1     
+	   3 Input     11 Bit        Muxes := 1     
+	   5 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  12 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 13    
+	   2 Input      5 Bit        Muxes := 122   
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 54    
+	   3 Input      4 Bit        Muxes := 2     
+	  14 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 26    
+	   2 Input      1 Bit        Muxes := 40    
+	  14 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Voice_Scope_TOP 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+Module my_dff__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Font_Rom__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+Module Font_Rom__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized11 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized12 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized13 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized14 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized15 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized16 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized17 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized20 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized21 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized25 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized4 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__21 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized9 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__20 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized8 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__19 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized7 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom__18 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized6 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized5 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module Font_Rom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized24 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__26 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized23 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__25 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized22 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__24 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized19 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__23 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized18 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+Module Font_Rom__22 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module Pixel_On_Text2__parameterized10 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   3 Input      5 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 5     
+Module VGA_Text 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 9     
+	   2 Input      4 Bit        Muxes := 35    
+	   3 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+Module clk_div__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clk_div__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clk_div__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__23 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__22 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module spd_sel 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     26 Bit        Muxes := 2     
+Module clk_div_var 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Voice_Capturer 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
+Module Volume_Indicator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  13 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	  12 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	  14 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+Module TestWave_Gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+Module my_dff__21 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__20 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module colorgen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 6     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 18    
+	   2 Input      1 Bit        Muxes := 1     
+Module my_dff__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__17 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__16 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__19 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__18 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Draw_Waveform 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 27    
+	   2 Input     11 Bit       Adders := 13    
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 48    
++---Multipliers : 
+	                32x32  Multipliers := 4     
++---RAMs : 
+	              12K Bit         RAMs := 3     
++---Muxes : 
+	  18 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 10    
+	   4 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 7     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 16    
+Module my_dff__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module my_dff__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Draw_Background 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 48    
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   3 Input     11 Bit        Muxes := 1     
+	   5 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 10    
+	   8 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 16    
+Module VGA_CONTROL 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module VGA_DISPLAY 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-6014] Unused sequential element t1/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t2/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t3/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t13/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t14/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t15/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t16/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t17/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t18/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t19/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t21/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t23/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t27/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t6/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t5/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t4/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t11/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t10/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t9/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t8/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t7/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t26/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t25/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t24/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t20/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t22/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+WARNING: [Synth 8-6014] Unused sequential element t12/FontRom/fontRow_reg was removed.  [C:/Users/jodyz/Documents/University/University Modules/Y1S2/EE2026/Lab/Project/VGA-Text-Generator-master/VGA-Text-Generator.srcs/sources_1/new/Font_Rom.vhd:2233]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:303]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:302]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:307]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.srcs/sources_1/imports/new/Draw_Waveform.v:307]
+DSP Report: Generating DSP Wave_horizontal5, operation Mode is: A*B.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: Generating DSP Wave_horizontal5, operation Mode is: A*B.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: Generating DSP Wave_horizontal5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical6, operation Mode is: A*B.
+DSP Report: operator Wave_vertical6 is absorbed into DSP Wave_vertical6.
+DSP Report: operator Wave_vertical6 is absorbed into DSP Wave_vertical6.
+DSP Report: Generating DSP Wave_vertical6, operation Mode is: A*B.
+DSP Report: operator Wave_vertical6 is absorbed into DSP Wave_vertical6.
+DSP Report: operator Wave_vertical6 is absorbed into DSP Wave_vertical6.
+DSP Report: Generating DSP Wave_vertical6, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical6 is absorbed into DSP Wave_vertical6.
+DSP Report: operator Wave_vertical6 is absorbed into DSP Wave_vertical6.
+DSP Report: Generating DSP Wave_horizontal5, operation Mode is: A*B.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: Generating DSP Wave_horizontal5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: Generating DSP Wave_horizontal5, operation Mode is: A*B.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: Generating DSP Wave_horizontal5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: operator Wave_horizontal5 is absorbed into DSP Wave_horizontal5.
+DSP Report: Generating DSP Wave_vertical4, operation Mode is: A*B.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: Generating DSP Wave_vertical4, operation Mode is: A*B.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: Generating DSP Wave_vertical4, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: Generating DSP Wave_vertical4, operation Mode is: A*B.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: Generating DSP Wave_vertical4, operation Mode is: A*B.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: Generating DSP Wave_vertical4, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: operator Wave_vertical4 is absorbed into DSP Wave_vertical4.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: Generating DSP Wave_vertical5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+DSP Report: operator Wave_vertical5 is absorbed into DSP Wave_vertical5.
+INFO: [Synth 8-3886] merging instance 'i_0/fa3/level_reg[5]' (FDR) to 'i_0/fa3/level_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\fa3/level_reg[4] )
+INFO: [Synth 8-3886] merging instance 'i_0/fa3/temp_seg_reg[7]' (FDE) to 'i_0/fa3/temp_an_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/fa3/temp_an_reg[2]' (FDE) to 'i_0/fa3/temp_an_reg[3]'
+WARNING: [Synth 8-3332] Sequential element (sp3/dff1/Q_reg) is unused and will be removed from module Draw_Waveform.
+WARNING: [Synth 8-3332] Sequential element (sp3/dff2/Q_reg) is unused and will be removed from module Draw_Waveform.
+WARNING: [Synth 8-3332] Sequential element (sp4/dff1/Q_reg) is unused and will be removed from module Draw_Waveform.
+WARNING: [Synth 8-3332] Sequential element (sp4/dff2/Q_reg) is unused and will be removed from module Draw_Waveform.
+WARNING: [Synth 8-3332] Sequential element (Background_Rn_reg[3]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Rn_reg[2]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Rn_reg[1]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Rn_reg[0]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Gn_reg[3]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Gn_reg[2]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Gn_reg[1]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Gn_reg[0]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Bn_reg[3]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Bn_reg[2]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Bn_reg[1]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (Background_Bn_reg[0]) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (su/dff1/Q_reg) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (su/dff2/Q_reg) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (sd/dff1/Q_reg) is unused and will be removed from module Draw_Background.
+WARNING: [Synth 8-3332] Sequential element (sd/dff2/Q_reg) is unused and will be removed from module Draw_Background.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:26 . Memory (MB): peak = 853.270 ; gain = 595.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++----------------+-------------------------+---------------+----------------+
+|Module Name     | RTL Object              | Depth x Width | Implemented As | 
++----------------+-------------------------+---------------+----------------+
+|Font_Rom        | fontRow_reg             | 2048x8        | Block RAM      | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 32x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 64x7          | LUT            | 
+|Pixel_On_Text2  | displayText[1]          | 128x7         | LUT            | 
+|Voice_Scope_TOP | t1/displayText[1]       | 32x7          | LUT            | 
+|Voice_Scope_TOP | t1/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t2/displayText[1]       | 32x7          | LUT            | 
+|Voice_Scope_TOP | t2/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t3/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t13/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t13/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t14/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t14/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t15/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t15/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t16/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t16/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t17/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t17/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t18/displayText[1]      | 32x7          | LUT            | 
+|Voice_Scope_TOP | t18/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t19/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t19/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t21/displayText[1]      | 32x7          | LUT            | 
+|Voice_Scope_TOP | t21/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t23/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t23/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t27/displayText[1]      | 128x7         | LUT            | 
+|Voice_Scope_TOP | t27/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t6/displayText[1]       | 32x7          | LUT            | 
+|Voice_Scope_TOP | t5/displayText[1]       | 32x7          | LUT            | 
+|Voice_Scope_TOP | t5/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t4/displayText[1]       | 32x7          | LUT            | 
+|Voice_Scope_TOP | t4/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t11/displayText[1]      | 32x7          | LUT            | 
+|Voice_Scope_TOP | t11/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t10/displayText[1]      | 32x7          | LUT            | 
+|Voice_Scope_TOP | t10/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t9/displayText[1]       | 32x7          | LUT            | 
+|Voice_Scope_TOP | t9/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t8/displayText[1]       | 64x7          | LUT            | 
+|Voice_Scope_TOP | t8/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t7/displayText[1]       | 32x7          | LUT            | 
+|Voice_Scope_TOP | t7/FontRom/fontRow_reg  | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t26/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t26/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t25/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t25/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t24/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t24/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t20/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t20/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t22/displayText[1]      | 64x7          | LUT            | 
+|Voice_Scope_TOP | t22/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
+|Voice_Scope_TOP | t12/displayText[1]      | 32x7          | LUT            | 
+|Voice_Scope_TOP | t12/FontRom/fontRow_reg | 2048x8        | Block RAM      | 
++----------------+-------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------------------+-----------+----------------------+-------------------------------+
+|Module Name | RTL Object                | Inference | Size (Depth x Width) | Primitives                    | 
++------------+---------------------------+-----------+----------------------+-------------------------------+
+|i_0/wv      | Sample_Memory_reg         | Implied   | 2 K x 10             | RAM64X1D x 40  RAM64M x 120   | 
+|i_0/wv      | Sample_Memory_Average_reg | Implied   | 2 K x 10             | RAM64X1D x 60  RAM64M x 180   | 
+|i_0/wv      | Sample_Memory_Slow_reg    | Implied   | 2 K x 10             | RAM64X1D x 40  RAM64M x 120   | 
++------------+---------------------------+-----------+----------------------+-------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++--------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name   | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Draw_Waveform | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Draw_Waveform | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_0/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_1/t2/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_2/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_3/t13/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_4/t14/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_5/t15/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_6/t16/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_7/t17/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_8/t18/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_9/t19/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_10/t21/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_1/i_11/t23/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_2/i_0/t27/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_2/i_1/t6/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_2/i_2/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_2/i_3/t4/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_3/i_0/t11/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_3/i_1/t10/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_3/i_2/t9/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_3/i_3/t8/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_3/i_4/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_4/i_0/t26/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_4/i_1/t25/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_4/i_2/t24/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_4/i_3/t20/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_4/i_4/t22/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101i_4/i_5/t12/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |VGA_Text__GB0        |           1|      1071|
+|2     |VGA_Text__GB1        |           1|       358|
+|3     |VGA_Text__GB2        |           1|       382|
+|4     |VGA_Text__GB3        |           1|       463|
+|5     |Voice_Scope_TOP__GC0 |           1|     11380|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:43 ; elapsed = 00:01:52 . Memory (MB): peak = 871.059 ; gain = 612.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:13 ; elapsed = 00:02:23 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+---------------------------+-----------+----------------------+-------------------------------+
+|Module Name | RTL Object                | Inference | Size (Depth x Width) | Primitives                    | 
++------------+---------------------------+-----------+----------------------+-------------------------------+
+|i_0/wv      | Sample_Memory_reg         | Implied   | 2 K x 10             | RAM64X1D x 40  RAM64M x 120   | 
+|i_0/wv      | Sample_Memory_Average_reg | Implied   | 2 K x 10             | RAM64X1D x 60  RAM64M x 180   | 
+|i_0/wv      | Sample_Memory_Slow_reg    | Implied   | 2 K x 10             | RAM64X1D x 40  RAM64M x 120   | 
++------------+---------------------------+-----------+----------------------+-------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |VGA_Text__GB0        |           1|      1071|
+|2     |VGA_Text__GB1        |           1|       358|
+|3     |VGA_Text__GB2        |           1|       382|
+|4     |VGA_Text__GB3        |           1|       463|
+|5     |Voice_Scope_TOP__GC0 |           1|     11356|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'nolabel_line101/nolabel_line38/dff1/Q_reg' (FD) to 'cg/nolabel_line47/dff1/Q_reg'
+INFO: [Synth 8-3886] merging instance 'nolabel_line101/nolabel_line38/dff2/Q_reg' (FD) to 'cg/nolabel_line47/dff2/Q_reg'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[0][3]' (FD) to 'wv/Scrolling_B_reg[0][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[1][3]' (FD) to 'wv/Scrolling_B_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[2][3]' (FD) to 'wv/Scrolling_B_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[3][0]' (FD) to 'bg/Scrolling_B_reg[3][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[0][2]' (FD) to 'wv/Scrolling_B_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[1][2]' (FD) to 'wv/Scrolling_B_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[2][2]' (FD) to 'wv/Scrolling_B_reg[2][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[3][1]' (FD) to 'bg/Scrolling_B_reg[3][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[0][1]' (FD) to 'wv/Scrolling_B_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[1][2]' (FD) to 'bg/Scrolling_B_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[2][2]' (FD) to 'bg/Scrolling_B_reg[2][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[3][2]' (FD) to 'bg/Scrolling_B_reg[3][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[0][0]' (FD) to 'wv/Scrolling_B_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[1][3]' (FD) to 'bg/Scrolling_B_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[2][3]' (FD) to 'bg/Scrolling_B_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[3][3]' (FD) to 'bg/Scrolling_B_reg[3][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[0][3]' (FD) to 'wv/Scrolling_G_reg[0][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[1][0]' (FD) to 'bg/Scrolling_G_reg[1][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[2][0]' (FD) to 'bg/Scrolling_G_reg[2][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[0][2]' (FD) to 'wv/Scrolling_G_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[1][1]' (FD) to 'bg/Scrolling_G_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[2][1]' (FD) to 'bg/Scrolling_G_reg[2][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[0][1]' (FD) to 'wv/Scrolling_G_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[1][2]' (FD) to 'bg/Scrolling_G_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[0][0]' (FD) to 'wv/Scrolling_G_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[1][3]' (FD) to 'bg/Scrolling_G_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[0][3]' (FD) to 'wv/Scrolling_R_reg[0][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[1][0]' (FD) to 'bg/Scrolling_R_reg[1][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[0][2]' (FD) to 'wv/Scrolling_R_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[1][1]' (FD) to 'bg/Scrolling_R_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[2][1]' (FD) to 'bg/Scrolling_R_reg[2][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[0][1]' (FD) to 'wv/Scrolling_R_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[1][2]' (FD) to 'bg/Scrolling_R_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[2][2]' (FD) to 'bg/Scrolling_R_reg[2][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[0][0]' (FD) to 'wv/Scrolling_R_reg[0][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[1][3]' (FD) to 'bg/Scrolling_R_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[2][3]' (FD) to 'bg/Scrolling_R_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[4][3]' (FD) to 'wv/Scrolling_B_reg[4][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[5][3]' (FD) to 'wv/Scrolling_B_reg[5][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[6][0]' (FD) to 'bg/Scrolling_B_reg[6][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[4][2]' (FD) to 'wv/Scrolling_B_reg[4][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[5][2]' (FD) to 'wv/Scrolling_B_reg[5][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[6][1]' (FD) to 'bg/Scrolling_B_reg[6][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[7][1]' (FD) to 'bg/Scrolling_B_reg[7][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[4][1]' (FD) to 'wv/Scrolling_B_reg[4][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[5][1]' (FD) to 'wv/Scrolling_B_reg[5][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[6][2]' (FD) to 'bg/Scrolling_B_reg[6][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[4][0]' (FD) to 'wv/Scrolling_B_reg[4][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[5][0]' (FD) to 'wv/Scrolling_B_reg[5][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[6][3]' (FD) to 'bg/Scrolling_B_reg[6][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[7][3]' (FD) to 'bg/Scrolling_B_reg[7][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[8][3]' (FD) to 'bg/Scrolling_B_reg[8][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[3][3]' (FD) to 'wv/Scrolling_G_reg[3][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[4][0]' (FD) to 'bg/Scrolling_G_reg[4][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[3][2]' (FD) to 'wv/Scrolling_G_reg[3][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[4][1]' (FD) to 'bg/Scrolling_G_reg[4][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[2][1]' (FD) to 'wv/Scrolling_G_reg[2][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[3][2]' (FD) to 'bg/Scrolling_G_reg[3][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[2][0]' (FD) to 'wv/Scrolling_G_reg[2][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[3][3]' (FD) to 'bg/Scrolling_G_reg[3][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[2][3]' (FD) to 'wv/Scrolling_R_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[3][0]' (FD) to 'bg/Scrolling_R_reg[3][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[3][2]' (FD) to 'wv/Scrolling_R_reg[3][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[4][1]' (FD) to 'bg/Scrolling_R_reg[4][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[5][1]' (FD) to 'bg/Scrolling_R_reg[5][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[3][1]' (FD) to 'wv/Scrolling_R_reg[3][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[4][2]' (FD) to 'bg/Scrolling_R_reg[4][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[3][0]' (FD) to 'wv/Scrolling_R_reg[3][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[4][3]' (FD) to 'bg/Scrolling_R_reg[4][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[5][3]' (FD) to 'bg/Scrolling_R_reg[5][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_R_reg[6][3]' (FD) to 'bg/Scrolling_R_reg[6][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[7][3]' (FD) to 'wv/Scrolling_B_reg[7][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[8][0]' (FD) to 'bg/Scrolling_B_reg[8][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[9][0]' (FD) to 'bg/Scrolling_B_reg[9][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[8][2]' (FD) to 'wv/Scrolling_B_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[9][1]' (FD) to 'bg/Scrolling_B_reg[9][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[7][1]' (FD) to 'wv/Scrolling_B_reg[7][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[8][2]' (FD) to 'bg/Scrolling_B_reg[8][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[9][2]' (FD) to 'bg/Scrolling_B_reg[9][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[10][2]' (FD) to 'bg/Scrolling_B_reg[10][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_B_reg[9][0]' (FD) to 'wv/Scrolling_B_reg[9][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_B_reg[10][3]' (FD) to 'bg/Scrolling_B_reg[10][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[5][3]' (FD) to 'wv/Scrolling_G_reg[5][0]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[6][0]' (FD) to 'bg/Scrolling_G_reg[6][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[7][0]' (FD) to 'bg/Scrolling_G_reg[7][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[5][2]' (FD) to 'wv/Scrolling_G_reg[5][1]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[6][1]' (FD) to 'bg/Scrolling_G_reg[6][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[4][1]' (FD) to 'wv/Scrolling_G_reg[4][2]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[5][1]' (FD) to 'wv/Scrolling_G_reg[5][2]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[6][2]' (FD) to 'bg/Scrolling_G_reg[6][1]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[4][0]' (FD) to 'wv/Scrolling_G_reg[4][3]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_G_reg[5][0]' (FD) to 'wv/Scrolling_G_reg[5][3]'
+INFO: [Synth 8-3886] merging instance 'wv/Scrolling_G_reg[6][3]' (FD) to 'bg/Scrolling_G_reg[6][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[4][3]' (FD) to 'wv/Scrolling_R_reg[4][0]'
+INFO: [Synth 8-3886] merging instance 'bg/Scrolling_R_reg[5][3]' (FD) to 'wv/Scrolling_R_reg[5][0]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t1/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t3/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t14/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t14/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t16/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t16/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t18/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t18/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t21/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t21/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t27/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t27/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t5/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t11/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t11/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t9/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t9/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t7/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t25/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t25/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t20/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t20/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance nolabel_line101/t12/FontRom/fontRow_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:31 ; elapsed = 00:02:42 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:36 ; elapsed = 00:02:47 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:36 ; elapsed = 00:02:47 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:40 ; elapsed = 00:02:52 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:41 ; elapsed = 00:02:52 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:41 ; elapsed = 00:02:53 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:41 ; elapsed = 00:02:53 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     6|
+|2     |CARRY4     |   791|
+|3     |DSP48E1    |    30|
+|4     |LUT1       |   531|
+|5     |LUT2       |  1449|
+|6     |LUT3       |   425|
+|7     |LUT4       |   693|
+|8     |LUT5       |   387|
+|9     |LUT6       |  1496|
+|10    |MMCME2_ADV |     1|
+|11    |MUXF7      |   152|
+|12    |RAM64M     |   420|
+|13    |RAM64X1D   |   140|
+|14    |RAMB18E1   |    14|
+|15    |FDRE       |   764|
+|16    |FDSE       |    18|
+|17    |IBUF       |    20|
+|18    |OBUF       |    40|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-------------------+--------------------------------+------+
+|      |Instance           |Module                          |Cells |
++------+-------------------+--------------------------------+------+
+|1     |top                |                                |  7377|
+|2     |  VGA_CLK_108M     |CLK_108M                        |     3|
+|3     |  bg               |Draw_Background                 |   299|
+|4     |    sl             |single_pulse_29                 |     3|
+|5     |      dff1         |my_dff_33                       |     2|
+|6     |      dff2         |my_dff_34                       |     1|
+|7     |    sr             |single_pulse_30                 |     6|
+|8     |      dff1         |my_dff_31                       |     5|
+|9     |      dff2         |my_dff_32                       |     1|
+|10    |  cg               |colorgen                        |    69|
+|11    |    nolabel_line47 |single_pulse_26                 |     4|
+|12    |      dff1         |my_dff_27                       |     3|
+|13    |      dff2         |my_dff_28                       |     1|
+|14    |  cl10             |clk_div                         |    52|
+|15    |  cl20             |clk_div_0                       |    52|
+|16    |  cl20k            |clk_div_1                       |    52|
+|17    |  cl50             |clk_div_2                       |    52|
+|18    |  clx              |clk_div_var                     |   119|
+|19    |    nolabel_line32 |spd_sel                         |    80|
+|20    |      sd           |single_pulse_20                 |    31|
+|21    |        dff1       |my_dff_24                       |     1|
+|22    |        dff2       |my_dff_25                       |    30|
+|23    |      su           |single_pulse_21                 |     8|
+|24    |        dff1       |my_dff_22                       |     1|
+|25    |        dff2       |my_dff_23                       |     7|
+|26    |  disp             |VGA_DISPLAY                     |  3092|
+|27    |    VGA_CONTROL    |VGA_CONTROL                     |  2673|
+|28    |  fa2              |Voice_Capturer                  |    75|
+|29    |  fa3              |Volume_Indicator                |   135|
+|30    |  nolabel_line101  |VGA_Text                        |   624|
+|31    |    t1             |Pixel_On_Text2                  |    19|
+|32    |      FontRom      |Font_Rom_19                     |     7|
+|33    |    t10            |Pixel_On_Text2__parameterized8  |     7|
+|34    |    t11            |Pixel_On_Text2__parameterized9  |    96|
+|35    |      FontRom      |Font_Rom_18                     |    81|
+|36    |    t12            |Pixel_On_Text2__parameterized10 |    38|
+|37    |      FontRom      |Font_Rom_17                     |    23|
+|38    |    t13            |Pixel_On_Text2__parameterized11 |    12|
+|39    |    t14            |Pixel_On_Text2__parameterized12 |    16|
+|40    |      FontRom      |Font_Rom_16                     |     5|
+|41    |    t15            |Pixel_On_Text2__parameterized13 |    10|
+|42    |    t16            |Pixel_On_Text2__parameterized14 |    16|
+|43    |      FontRom      |Font_Rom_15                     |     5|
+|44    |    t17            |Pixel_On_Text2__parameterized15 |     9|
+|45    |    t18            |Pixel_On_Text2__parameterized16 |    14|
+|46    |      FontRom      |Font_Rom_14                     |     5|
+|47    |    t19            |Pixel_On_Text2__parameterized17 |    10|
+|48    |    t2             |Pixel_On_Text2__parameterized0  |     9|
+|49    |    t20            |Pixel_On_Text2__parameterized19 |    16|
+|50    |      FontRom      |Font_Rom_13                     |     3|
+|51    |    t21            |Pixel_On_Text2__parameterized20 |    16|
+|52    |      FontRom      |Font_Rom_12                     |     6|
+|53    |    t22            |Pixel_On_Text2__parameterized18 |    13|
+|54    |    t23            |Pixel_On_Text2__parameterized21 |    15|
+|55    |    t24            |Pixel_On_Text2__parameterized22 |     8|
+|56    |    t25            |Pixel_On_Text2__parameterized23 |    10|
+|57    |      FontRom      |Font_Rom_11                     |     4|
+|58    |    t26            |Pixel_On_Text2__parameterized24 |    52|
+|59    |    t27            |Pixel_On_Text2__parameterized25 |    56|
+|60    |      FontRom      |Font_Rom_10                     |    40|
+|61    |    t3             |Pixel_On_Text2__parameterized1  |    16|
+|62    |      FontRom      |Font_Rom_9                      |     6|
+|63    |    t4             |Pixel_On_Text2__parameterized2  |    12|
+|64    |    t5             |Pixel_On_Text2__parameterized3  |    19|
+|65    |      FontRom      |Font_Rom_8                      |     7|
+|66    |    t6             |Pixel_On_Text2__parameterized4  |    65|
+|67    |    t7             |Pixel_On_Text2__parameterized5  |    19|
+|68    |      FontRom      |Font_Rom_7                      |     7|
+|69    |    t8             |Pixel_On_Text2__parameterized6  |    12|
+|70    |    t9             |Pixel_On_Text2__parameterized7  |    21|
+|71    |      FontRom      |Font_Rom                        |     7|
+|72    |  twgen            |TestWave_Gen                    |    27|
+|73    |  wv               |Draw_Waveform                   |  2405|
+|74    |    sp1            |single_pulse                    |     8|
+|75    |      dff1         |my_dff_5                        |     2|
+|76    |      dff2         |my_dff_6                        |     6|
+|77    |    sp2            |single_pulse_3                  |    15|
+|78    |      dff1         |my_dff                          |     9|
+|79    |      dff2         |my_dff_4                        |     6|
++------+-------------------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:41 ; elapsed = 00:02:53 . Memory (MB): peak = 1007.840 ; gain = 749.602
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 51 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:24 ; elapsed = 00:02:42 . Memory (MB): peak = 1007.840 ; gain = 398.129
+Synthesis Optimization Complete : Time (s): cpu = 00:02:42 ; elapsed = 00:02:53 . Memory (MB): peak = 1007.840 ; gain = 749.602
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1568 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 560 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 420 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 140 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+338 Infos, 239 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:51 ; elapsed = 00:03:04 . Memory (MB): peak = 1007.840 ; gain = 762.617
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jodyz/Desktop/Audio_Viz_Project_Template.xpr/Audio_Viz_Project_Template/Audio_Viz_Project_Template.runs/synth_1/Voice_Scope_TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Voice_Scope_TOP_utilization_synth.rpt -pb Voice_Scope_TOP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 1007.840 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  6 22:38:31 2019...

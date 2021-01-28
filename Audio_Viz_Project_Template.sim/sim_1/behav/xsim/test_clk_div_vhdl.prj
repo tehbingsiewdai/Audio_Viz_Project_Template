@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Audio_Viz_Project_Template.srcs/sources_1/imports/new/VGA_CONTROL.vhd" \
+"../../../../Audio_Viz_Project_Template.srcs/sources_1/imports/new/CLK_108M.vhd" \
+
+# Do not sort compile order
+nosort

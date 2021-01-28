@@ -1,0 +1,143 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  6 22:42:38 2019
+| Host         : LAPTOP-JMOIQ3QC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Voice_Scope_TOP_control_sets_placed.rpt
+| Design       : Voice_Scope_TOP
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    73 |
+| Unused register locations in slices containing registers |    78 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      6 |            1 |
+|      8 |            4 |
+|     10 |            1 |
+|     12 |            1 |
+|     14 |            2 |
+|    16+ |           62 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             658 |          132 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             620 |          141 |
+| Yes          | No                    | No                     |             124 |           28 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             384 |           93 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+----------------------------------------------------+--------------------------------------+------------------+----------------+
+|         Clock Signal        |                    Enable Signal                   |           Set/Reset Signal           | Slice Load Count | Bel Load Count |
++-----------------------------+----------------------------------------------------+--------------------------------------+------------------+----------------+
+|  cl10/outclk                |                                                    | fa3/level2                           |                1 |              2 |
+|  J_MIC3_Pin1_OBUF_BUFG      | fa3/__2/i__n_0                                     | fa3/temp_an[1]_i_1_n_0               |                1 |              2 |
+|  cl10/outclk                |                                                    |                                      |                2 |              6 |
+|  VGA_CLK_108M/clk_out1      |                                                    | nolabel_line101/t2/VGA_B_Text_reg[0] |                2 |              8 |
+|  cl20/clk_20                | wv/j                                               | wv/j[9]_i_1_n_0                      |                2 |              8 |
+|  cl20/clk_20                | sw_IBUF[13]                                        | wv/sp1/dff2/wave_selection_reg[3]_0  |                2 |              8 |
+|  cg/nolabel_line47/dff1/b_c |                                                    |                                      |                1 |              8 |
+|  cl20/clk_20                |                                                    |                                      |                3 |             10 |
+|  CLK_IBUF_BUFG              |                                                    |                                      |                4 |             12 |
+|  cl20/clk_20                | wv/j[10]_i_2_n_0                                   | wv/j[10]_i_1_n_0                     |                3 |             14 |
+|  J_MIC3_Pin1_OBUF_BUFG      | fa3/__2/i__n_0                                     | fa3/temp_vol[6]_i_1_n_0              |                2 |             14 |
+|  clk_50_BUFG                | sw_IBUF[3]                                         | bg/p_0_in[2]                         |                2 |             16 |
+|  VGA_CLK_108M/clk_out1      |                                                    | nolabel_line101/t13/pixel_reg_2      |                5 |             16 |
+|  clk_50_BUFG                | sw_IBUF[3]                                         | bg/Vertical_Counter[8]_i_1_n_0       |                2 |             16 |
+|  VGA_CLK_108M/clk_out1      |                                                    | disp/VGA_CONTROL/VGA_RED_reg[3]_18   |               10 |             24 |
+| ~fa2/J_MIC3_Pin4_OBUF       |                                                    |                                      |                4 |             24 |
+|  CLK_IBUF_BUFG              |                                                    | J_MIC3_Pin1_OBUF_BUFG                |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG      | fa3/meter0_inferred__0/i__carry__0_n_2             | fa3/meter[11]_i_1_n_0                |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG      |                                                    | fa3/meter[11]_i_1_n_0                |                3 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG      | fa3/__2/i__n_0                                     |                                      |                9 |             32 |
+|  clk_var_BUFG               | cg/pause0                                          |                                      |                9 |             32 |
+|  CLK_IBUF_BUFG              |                                                    | clx/clear                            |                7 |             52 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_384_447_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_448_511_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_128_191_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_256_319_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_768_831_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_512_575_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  VGA_CLK_108M/clk_out1      |                                                    |                                      |               22 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_576_639_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_704_767_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_64_127_0_2_i_1_n_0    |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_896_959_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_832_895_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_960_1023_0_2_i_1_n_0  |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_640_703_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_320_383_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_0_63_0_2_i_1_n_0      |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_1088_1151_0_2_i_1_n_0 |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_1024_1087_0_2_i_1_n_0 |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_1216_1279_0_2_i_1_n_0 |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_1152_1215_0_2_i_1_n_0 |                                      |                7 |             56 |
+|  clk_50_BUFG                | wv/Sample_Memory_Slow_reg_r1_192_255_0_2_i_1_n_0   |                                      |                7 |             56 |
+|  clk_50_BUFG                | clx/nolabel_line32/val[3]_i_1_n_0                  |                                      |               10 |             60 |
+|  clk_50_BUFG                |                                                    |                                      |               14 |             62 |
+|  CLK_IBUF_BUFG              |                                                    | cl50/counter[0]_i_1_n_0              |                9 |             66 |
+|  CLK_IBUF_BUFG              |                                                    | cl10/counter[0]_i_1__1_n_0           |                9 |             66 |
+|  CLK_IBUF_BUFG              |                                                    | cl20/counter[0]_i_1__2_n_0           |                9 |             66 |
+|  CLK_IBUF_BUFG              |                                                    | cl20k/counter[0]_i_1__0_n_0          |                9 |             66 |
+|  J_MIC3_Pin1_OBUF_BUFG      |                                                    |                                      |               19 |             92 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_0_63_0_2_i_4_n_0           |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_1088_1151_0_2_i_1_n_0      |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_192_255_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_1152_1215_0_2_i_1_n_0      |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_128_191_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_1216_1279_0_2_i_1_n_0      |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_832_895_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_640_703_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_64_127_0_2_i_1_n_0         |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_768_831_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_960_1023_0_2_i_1_n_0       |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_896_959_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_1024_1087_0_2_i_1_n_0      |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_704_767_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_576_639_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_512_575_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_256_319_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_320_383_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_448_511_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  J_MIC3_Pin1_OBUF_BUFG      | wv/Sample_Memory_reg_r1_384_447_0_2_i_1_n_0        |                                      |               20 |            140 |
+|  VGA_CLK_108M/clk_out1      |                                                    | disp/VGA_CONTROL/eqOp2_in            |               74 |            206 |
+|  VGA_CLK_108M/clk_out1      | disp/VGA_CONTROL/eqOp2_in                          | disp/VGA_CONTROL/v_cntr_reg0__11     |               76 |            282 |
+|  clk_var_BUFG               |                                                    |                                      |               63 |            388 |
++-----------------------------+----------------------------------------------------+--------------------------------------+------------------+----------------+
+
+
