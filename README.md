@@ -7,15 +7,17 @@ Final Project for NUS EE2026, Developed on Digilent's Basys 3 FPGA
 - Lucas Foo
 
 ## Visuals
-![Alt text](images/img.jpg?raw=true "visual1")
-![Alt text](images/img.jpg?raw=true "visual2")
-![Alt text](images/img.jpg?raw=true "visual3") <br />
-![Alt text](images/img.jpg?raw=true "visual4") 
-![Alt text](images/img.jpg?raw=true "visual5")
-![Alt text](images/img.jpg?raw=true "visual6") <br />
-![Alt text](images/img.jpg?raw=true "visual7")
-![Alt text](images/img.jpg?raw=true "visual8")
-![Alt text](images/img.jpg?raw=true "visual9") <br />
-![Alt text](images/img.jpg?raw=true "visual10")
-![Alt text](images/img.jpg?raw=true "visual11")
-![Alt text](images/img.jpg?raw=true "visual12")
+![Screenshot](images/visual1.jpg)
+![Screenshot](images/visual2.jpg)
+![Screenshot](images/visual3.jpg)
+![Screenshot](images/visual4.jpg)
+![Screenshot](images/visual5.jpg)
+![Screenshot](images/visual6.jpg)
+![Screenshot](images/visual7.jpg)
+![Screenshot](images/visual8.jpg)
+![Screenshot](images/visual9.jpg)
+![Screenshot](images/visual10.jpg)
+![Screenshot](images/visual11.jpg)
+![Screenshot](images/visual12.jpg)
+
+
